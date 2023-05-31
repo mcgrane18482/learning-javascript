@@ -8,11 +8,28 @@
 </head>
 <body>
     <script>
-        var age = 18;
-        
-        if (age >= 18){
-            console.log('You are old enough');
+        var fruits = ['apple', 'orange', 'kiwi', 'grape'];
+        var fruit = fruits[2];
+        fruits[2] = 'mango';
+
+        console.log(fruit);
+        console.log(fruits[2]);
+
+
+
+        var data = ['Erin', 27, 'Tony', 48];
+        console.log('Name:',data[0], 'Age:',data[1]);
+        console.log('Name',data[2], 'Age:', data[3]);
+
+
+
+        var students = ['Jonathan', 'Brandon', 'Jamil', 'John', 'Matthew', 'Jeremy', 'Erin', 'Liam', 'Nydon', 'Morgan', 'JD'];
+
+        for (var index=0; index < students.length; index++){
+            console.log(students[index]);
         }
+
+
     </script>
 </body>
 </html>
